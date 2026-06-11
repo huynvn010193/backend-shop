@@ -1,0 +1,15 @@
+module.exports = {
+  ERROR_CASTEROR: "Không tồn tại dữ liệu",
+  ERROR_NAME: "Chiều dài từ %d đến %d ký tự",
+  ERROR_DESCRIPTION: "Chiều dài từ %d đến %d ký tự",
+  ERROR_USERNAME: "Chiều dài từ %d đến %d ký tự",
+  ERROR_EMAIL: "Email không hợp lệ",
+  ERROR_ROLE: "Role không hợp lệ",
+  ERROR_PASSWORD: "Chiều dài từ %d đến %d ký tự",
+  ERROR_EMAIL_PASSWORD: "Email hoặc mật khẩu không chính xác",
+  ERROR_EMAIL_PASSWORD_NOT_EMPTY: "Email hoặc mật khẩu không được rỗng",
+  ERROR_LOGIN_USED: "Vui lòng đăng nhập để thực hiện chức năng này",
+  ERROR_PERMISSION: "Bạn không có quyền thực hiện chức năng này",
+  ERROR_EMAIL_NOT_EXIST: "Email không tồn tại",
+  ERROR_INVALID_TOKEN: "Không tồn tại Token",
+};
