@@ -1,0 +1,26 @@
+[
+	{
+		"_id" 		: "5d113995b721c3bb38a1f511",
+		"name" 		: "Giầy nam",
+		"title" 	: "Giầy cho phái mạnh",
+		"slug"		: "giay-nam"	
+	},
+	{
+		"_id" 		: "5d113995b721c3bb38a1f512",
+		"name" 		: "Giầy nữ",
+		"title" 	: "Giầy cho phái yếu",
+		"slug"		: "giay-nu"	
+	},
+	{
+		"_id" 		: "5d113995b721c3bb38a1f513",
+		"name" 		: "Giầy thể thao",
+		"title" 	: "Giầy cho bộ môn thể thao",
+		"slug"		: "giay-the-thao"	
+	},
+	{
+		"_id" 		: "5d113995b721c3bb38a1f514",
+		"name" 		: "Giầy thời trang",
+		"title" 	: "Giầy di lịch , trang trí",
+		"slug"		: "giay-thoi-trang"	
+	}
+]

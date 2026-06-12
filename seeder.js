@@ -13,16 +13,16 @@ mongoose.connect(
   `mongodb+srv://${databaseConfig.username}:${databaseConfig.password}@cluster0.amr9jcd.mongodb.net/${databaseConfig.database}`,
 );
 
-const ItemSchema = require("./app/schemas/items");
-const CareersSchema = require("./app/schemas/careers");
+const ProductSchema = require("./app/schemas/product");
+const CategorySchema = require("./app/schemas/category");
 const UsersSchema = require("./app/schemas/users");
 
-const Items = JSON.parse(
-  fs.readFileSync(`${__dirname}/app/_data/items.json`, "utf-8"),
+const Product = JSON.parse(
+  fs.readFileSync(`${__dirname}/app/_data/product.json`, "utf-8"),
 );
 
-const Careers = JSON.parse(
-  fs.readFileSync(`${__dirname}/app/_data/careers.json`, "utf-8"),
+const Category = JSON.parse(
+  fs.readFileSync(`${__dirname}/app/_data/category.json`, "utf-8"),
 );
 
 const Users = JSON.parse(
@@ -31,8 +31,8 @@ const Users = JSON.parse(
 
 const importData = async () => {
   try {
-    await ItemSchema.create(Items);
-    await CareersSchema.create(Careers);
+    await ProductSchema.create(Product);
+    await CategorySchema.create(Category);
     await UsersSchema.create(Users);
     console.log("Data imported successfully");
     process.exit();
@@ -43,8 +43,8 @@ const importData = async () => {
 
 const deleteData = async () => {
   try {
-    await ItemSchema.deleteMany({});
-    await CareersSchema.deleteMany({});
+    await ProductSchema.deleteMany({});
+    await CategorySchema.deleteMany({});
     await UsersSchema.deleteMany({});
     console.log("Data deleted successfully");
     process.exit();

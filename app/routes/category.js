@@ -1,17 +1,24 @@
 var express = require("express");
 var router = express.Router();
 var asyncHandler = require("../middleware/async");
-var { protect, authorize } = require("../middleware/auth");
 
-const controllerName = "items";
+const controllerName = "category";
 const MainModel = require(__path_models + controllerName);
 const MainValidate = require(__path_validates + controllerName);
 const ErrorResponse = require("../utils/ErrorResponse");
 
+var { protect, authorize } = require("../middleware/auth");
+
 router.get(
   "/",
   asyncHandler(async (req, res) => {
-    const data = await MainModel.listItems(req.query, { task: "all" });
+    const data = await MainModel.listCareers(req.query, { task: "all" });
+    if (!data) {
+      res.status(200).json({
+        success: true,
+        data: "Dữ liệu không tồn tại",
+      });
+    }
     res.status(200).json({
       success: true,
       data: data,
@@ -23,10 +30,16 @@ router.get(
 router.get(
   "/:id",
   asyncHandler(async (req, res) => {
-    const data = await MainModel.listItems(
+    const data = await MainModel.listCareers(
       { id: req.params.id },
       { task: "one" },
     );
+    if (!data) {
+      res.status(200).json({
+        success: true,
+        data: "Dữ liệu không tồn tại",
+      });
+    }
     res.status(200).json({
       success: true,
       data: data,
@@ -36,8 +49,6 @@ router.get(
 
 router.post(
   "/add",
-  protect,
-  authorize("publisher", "admin"),
   asyncHandler(async (req, res, next) => {
     let err = await validateReq(req, res, next);
     if (!err) {
@@ -52,8 +63,6 @@ router.post(
 
 router.put(
   "/edit/:id",
-  protect,
-  authorize("publisher", "admin"),
   asyncHandler(async (req, res, next) => {
     let err = await validateReq(req, res, next);
     if (!err) {
@@ -69,9 +78,29 @@ router.put(
   }),
 );
 
+// TODO: Like dislike careers
+router.put(
+  "/even/:type/:id",
+  protect,
+  authorize("publisher", "admin"),
+  asyncHandler(async (req, res, next) => {
+    const data = await MainModel.even({
+      id: req.params.id,
+      type: req.params.type,
+    });
+    if (!data) {
+      return next(new ErrorResponse(404, "Dữ liệu không tồn tại"));
+    }
+
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
+  }),
+);
+
 router.delete(
   "/delete/:id",
-  authorize("publisher", "admin"),
   asyncHandler(async (req, res) => {
     const data = await MainModel.deleteItem(
       { id: req.params.id },

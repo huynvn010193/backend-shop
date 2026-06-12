@@ -1,4 +1,4 @@
-const MainModel = require(__path_schemas + "careers");
+const MainModel = require(__path_schemas + "category");
 
 // TODO: biến đổi: careers[in]=5d7a514b5d2c12c7449be025 => { careers: { $in: [5d7a514b5d2c12c7449be025] } }
 const parseBracketQuery = (query) => {
@@ -59,7 +59,7 @@ module.exports = {
 
     if (options.task === "all") {
       return await MainModel.find(find)
-        .populate({ path: "restaurants", select: "name" })
+        .populate({ path: "product", select: "name" })
         .select(select)
         .sort(sort)
         .skip(skip)

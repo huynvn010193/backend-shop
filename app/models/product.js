@@ -1,4 +1,4 @@
-const MainModel = require(__path_schemas + "items");
+const MainModel = require(__path_schemas + "product");
 
 // TODO: biến đổi: careers[in]=5d7a514b5d2c12c7449be025 => { careers: { $in: [5d7a514b5d2c12c7449be025] } }
 const parseBracketQuery = (query) => {

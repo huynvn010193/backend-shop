@@ -1,0 +1,292 @@
+[
+  {
+    "_id": "5d713995b721c3bb38c1f5d0",
+    "name": "Adidas Pro-Vip 2021",
+    "color" : ["red","blue"],
+    "price" : 1300000,
+    "price_old" : 1500000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 30,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f511",
+      "name" : "giầy nam"
+    },
+    "category_id" : "5d113995b721c3bb38a1f511",
+    "special" : true,
+    "brand" : "adidas",
+    "size" : ["s","m"]
+  },
+  {
+    "_id": "5d713995b721c3bb38c1f5d1",
+    "name": "Adidas Sen 2021",
+    "color" : ["red","blue","yellow"],
+    "price" : 1200000,
+    "price_old" : 1500000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 20,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f511",
+      "name" : "giầy nam"
+    },
+    "category_id" : "5d113995b721c3bb38a1f511",
+    "special" : true,
+    "brand" : "adidas",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d713995b721c3bb38c1f5d3",
+    "name": "Adidas shoes",
+    "color" : ["red"],
+    "price" : 1700000,
+    "price_old" : 1900000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 0,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f511",
+      "name" : "giầy nam"
+    },
+    "category_id" : "5d113995b721c3bb38a1f511",
+    "special" : false,
+    "brand" : "adidas",
+    "size" : ["s"]
+  },
+  {
+    "_id": "5d713995b721c3bb38c1f5e1",
+    "name": "Adidas 2021",
+    "color" : ["red","yellow"],
+    "price" : 1300000,
+    "price_old" : 1600000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f511",
+      "name" : "giầy nam"
+    },
+    "category_id" : "5d113995b721c3bb38a1f511",
+    "special" : false,
+    "brand" : "adidas",
+    "size" : ["s","m"]
+  },
+  {
+    "_id": "5d713995b721c3bb38c1f1d0",
+    "name": "Adidas Pro-Vip 21",
+    "color" : ["red","blue"],
+    "price" : 1350000,
+    "price_old" : 1550000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 30,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f511",
+      "name" : "giầy nam"
+    },
+    "category_id" : "5d113995b721c3bb38a1f511",
+    "special" : false,
+    "brand" : "adidas",
+    "size" : ["l"]
+  },
+  {
+    "_id": "5d713992b721c3bb38c1f5d0",
+    "name": "Converse 1",
+    "color" : ["yellow","blue"],
+    "price" : 1300000,
+    "price_old" : 1500000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 20,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f512",
+      "name" : "giầy nữ"
+    },
+    "category_id" : "5d113995b721c3bb38a1f512",
+    "special" : false,
+    "brand" : "Converse",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d711995b721c3bb38c1f1d0",
+    "name": "converse ABC",
+    "color" : ["red","blue"],
+    "price" : 1250000,
+    "price_old" : 1550000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f512",
+      "name" : "giầy nữ"
+    },
+    "category_id" : "5d113995b721c3bb38a1f512",
+    "special" : true,
+    "brand" : "converse",
+    "size" : ["l"]
+  },
+  {
+    "_id": "5d113995b721c3bb38c1f5d0",
+    "name": "Converse 2a2",
+    "color" : ["green","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 40,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f512",
+      "name" : "giầy nữ"
+    },
+    "category_id" : "5d113995b721c3bb38a1f512",
+    "special" : false,
+    "brand" : "Converse",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113995b121c3bb38c1f5d0",
+    "name": "Converse 2a1",
+    "color" : ["red","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f512",
+      "name" : "giầy nữ"
+    },
+    "category_id" : "5d113995b721c3bb38a1f512",
+    "special" : false,
+    "brand" : "Converse",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113965b721c3bb38c1f5d0",
+    "name": "Nike 2a2",
+    "color" : ["green","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 40,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f513",
+      "name" : "giầy thể thao"
+    },
+    "category_id" : "5d113995b721c3bb38a1f513",
+    "special" : false,
+    "brand" : "Nike",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113195b721c3bb38c1f5d0",
+    "name": "Nike 2a2012",
+    "color" : ["red","yellow"],
+    "price" : 1120000,
+    "price_old" : 1210000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f513",
+      "name" : "giầy thể thao"
+    },
+    "category_id" : "5d113995b721c3bb38a1f513",
+    "special" : true,
+    "brand" : "Nike",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d123995b721c3bb38c1f5d0",
+    "name": "Nike 2aa12",
+    "color" : ["black","blue"],
+    "price" : 1200000,
+    "price_old" : 4500000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f513",
+      "name" : "giầy thể thao"
+    },
+    "category_id" : "5d113995b721c3bb38a1f513",
+    "special" : false,
+    "brand" : "Nike",
+    "size" : ["m","l"]
+  },
+  {
+    "_id": "5d113905b721c3bb38c1f5d0",
+    "name": "Nike 2123a2",
+    "color" : ["green","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 40,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f513",
+      "name" : "giầy thể thao"
+    },
+    "category_id" : "5d113995b721c3bb38a1f513",
+    "special" : true,
+    "brand" : "Nike",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113995b721c3bb38c1a5d0",
+    "name": "Vans 2a2",
+    "color" : ["green","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 40,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f514",
+      "name" : "giầy thời trang"
+    },
+    "category_id" : "5d113995b721c3bb38a1f514",
+    "special" : false,
+    "brand" : "Vans",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113995b721c1bb38c1f5d0",
+    "name": "Vans 21a21",
+    "color" : ["black","blue"],
+    "price" : 1100000,
+    "price_old" : 1200000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 10,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f514",
+      "name" : "giầy thời trang"
+    },
+    "category_id" : "5d113995b721c3bb38a1f514",
+    "special" : false,
+    "brand" : "Vans",
+    "size" : ["m","l"]
+  },
+  {
+    "_id": "5d113995b721c3bb37c1f5d0",
+    "name": "Vans new",
+    "color" : ["green","blue"],
+    "price" : 1120000,
+    "price_old" : 1220000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 15,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f514",
+      "name" : "giầy thời trang"
+    },
+    "category_id" : "5d113995b721c3bb38a1f514",
+    "special" : true,
+    "brand" : "Vans",
+    "size" : ["s","m","l"]
+  },
+  {
+    "_id": "5d113995b721c3bb38a1f5d0",
+    "name": "Vans oldschool",
+    "color" : ["yellow","blue"],
+    "price" : 1200000,
+    "price_old" : 1400000,
+    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "like" : 30,
+    "category" : {
+      "id" : "5d113995b721c3bb38a1f514",
+      "name" : "giầy thời trang"
+    },
+    "category_id" : "5d113995b721c3bb38a1f514",
+    "special" : false,
+    "brand" : "Vans",
+    "size" : ["s","m","l"]
+  }
+  
+]
