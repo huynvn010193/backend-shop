@@ -14,7 +14,7 @@ module.exports = {
     const username = String(req.body?.username || "").trim();
     const email = String(req.body?.email || "").trim();
     const password = String(req.body?.password || "").trim();
-    const role = String(req.body?.role || "").trim();
+    const role = String(req.body?.role || "user").trim();
 
     const errors = [];
     let message = {};
