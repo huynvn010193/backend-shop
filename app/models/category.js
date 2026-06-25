@@ -1,4 +1,5 @@
 const MainModel = require(__path_schemas + "category");
+const ProductModel = require(__path_schemas + "product");
 
 // TODO: biến đổi: careers[in]=5d7a514b5d2c12c7449be025 => { careers: { $in: [5d7a514b5d2c12c7449be025] } }
 const parseBracketQuery = (query) => {
@@ -65,8 +66,8 @@ module.exports = {
         .skip(skip)
         .limit(limit);
     }
-    if (options.task === "one") {
-      return await MainModel.findById(params.id).select({});
+    if (options.task === "getProduct") {
+      return await ProductModel.find({}).select("name price");
     }
   },
   create: async (item) => {

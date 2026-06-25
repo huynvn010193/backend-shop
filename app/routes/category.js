@@ -28,11 +28,11 @@ router.get(
 );
 
 router.get(
-  "/:id",
+  "/all",
   asyncHandler(async (req, res) => {
     const data = await MainModel.listCareers(
       { id: req.params.id },
-      { task: "one" },
+      { task: "getProduct" },
     );
     if (!data) {
       res.status(200).json({
