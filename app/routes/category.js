@@ -14,7 +14,7 @@ router.get(
   asyncHandler(async (req, res) => {
     const data = await MainModel.listCareers(req.query, { task: "all" });
     if (!data) {
-      res.status(200).json({
+      return res.status(200).json({
         success: true,
         data: "Dữ liệu không tồn tại",
       });
@@ -28,14 +28,14 @@ router.get(
 );
 
 router.get(
-  "/all",
+  "/:id",
   asyncHandler(async (req, res) => {
     const data = await MainModel.listCareers(
-      { id: req.params.id },
+      { id: req.params.id, query: req.query },
       { task: "getProduct" },
     );
     if (!data) {
-      res.status(200).json({
+      return res.status(200).json({
         success: true,
         data: "Dữ liệu không tồn tại",
       });

@@ -37,14 +37,15 @@ const parseBracketQuery = (query) => {
 
 module.exports = {
   listCareers: async (params, options) => {
+    let id = params.id ? params.id : "";
+    params = params.id ? params.query : params;
     const queryFind = { ...params };
     let select, sort;
 
     let removeFields = ["select", "sort", "page", "limit"];
     removeFields.forEach((field) => delete queryFind[field]);
 
-    const find = parseBracketQuery(queryFind);
-
+    let find = parseBracketQuery(queryFind);
     if (params.select) {
       select = params.select.split(",").join(" ");
     }
@@ -67,7 +68,14 @@ module.exports = {
         .limit(limit);
     }
     if (options.task === "getProduct") {
-      return await ProductModel.find({}).select("name price");
+      if (id !== "all") {
+        find = { ...find, "category.id": id };
+      }
+      return await ProductModel.find(find)
+        .select(select)
+        .sort(sort)
+        .skip(skip)
+        .limit(limit);
     }
   },
   create: async (item) => {
