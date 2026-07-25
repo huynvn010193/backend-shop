@@ -69,6 +69,7 @@ module.exports = {
     }
     if (options.task === "getProduct") {
       if (id !== "all") {
+        // FIXME: làm vầy để lưu lại giá trị tìm kiếm cũ.
         find = { ...find, "category.id": id };
       }
       return await ProductModel.find(find)
