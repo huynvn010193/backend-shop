@@ -27,7 +27,7 @@ router.get(
   }),
 );
 
-// TODO API Get Product theo Category
+// TODO: API Get Product theo Category
 router.get(
   "/:id",
   asyncHandler(async (req, res) => {
@@ -43,6 +43,7 @@ router.get(
     }
     res.status(200).json({
       success: true,
+      count: data.length,
       data: data,
     });
   }),
@@ -76,27 +77,6 @@ router.put(
         data: data,
       });
     }
-  }),
-);
-
-// TODO: Like dislike careers
-router.put(
-  "/even/:type/:id",
-  protect,
-  authorize("publisher", "admin"),
-  asyncHandler(async (req, res, next) => {
-    const data = await MainModel.even({
-      id: req.params.id,
-      type: req.params.type,
-    });
-    if (!data) {
-      return next(new ErrorResponse(404, "Dữ liệu không tồn tại"));
-    }
-
-    res.status(200).json({
-      success: true,
-      data: data,
-    });
   }),
 );
 

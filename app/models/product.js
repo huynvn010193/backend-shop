@@ -81,4 +81,21 @@ module.exports = {
       return await MainModel.deleteOne({ _id: params.id });
     }
   },
+  even: async (params, options) => {
+    let number = 1;
+    let type = params.type;
+    
+    if (type !== "like" && type !== "dislike") return;
+    if(type === "dislike") {
+      console.log("type", type);
+      type = "like";
+      number = -1;
+    }
+
+    return await MainModel.findByIdAndUpdate(
+      params.id,
+      { $inc: { [type]: number } },
+      { new: true },
+    );
+  },
 };

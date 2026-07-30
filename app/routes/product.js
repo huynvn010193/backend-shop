@@ -84,6 +84,28 @@ router.delete(
   }),
 );
 
+// TODO: Event Like dislike careers
+router.put(
+  "/event/:type/:id",
+  protect,
+  authorize("publisher", "admin"),
+  asyncHandler(async (req, res, next) => {
+    console.log("event");
+    const data = await MainModel.even({
+      id: req.params.id,
+      type: req.params.type,
+    });
+    if (!data) {
+      return next(new ErrorResponse(404, "Dữ liệu không tồn tại"));
+    }
+
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
+  }),
+);
+
 const validateReq = async (req, res, next) => {
   let err = await MainValidate.validator(req);
   if (Object.keys(err).length > 0) {

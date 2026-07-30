@@ -87,15 +87,7 @@ module.exports = {
       return await MainModel.updateOne({ _id: params.id }, params.body);
     }
   },
-  even: async (params, options) => {
-    const type = params.type;
-    if (type !== "like" && type !== "dislike") return;
-    return await MainModel.findByIdAndUpdate(
-      params.id,
-      { $inc: { [type]: 1 } },
-      { returnDocument: "after" },
-    );
-  },
+  
   deleteItem: async (params, options) => {
     if (options.task === "one") {
       return await MainModel.deleteOne({ _id: params.id });
